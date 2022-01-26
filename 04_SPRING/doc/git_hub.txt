@@ -1,0 +1,65 @@
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928
+$ mkdir github_tutorial
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928
+$ cd github_tutorial/
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial
+$ git clone https://github.com/hykim-king/PCWK_GIT.git
+Cloning into 'PCWK_GIT'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial
+$ ls -la
+total 4
+drwxr-xr-x 1 HKEDU 197121 0 12월 31 17:13 ./
+drwxr-xr-x 1 HKEDU 197121 0 12월 31 17:12 ../
+drwxr-xr-x 1 HKEDU 197121 0 12월 31 17:13 PCWK_GIT/
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial
+$ cd PCWK_GIT/
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial/PCWK_GIT (main)
+$ ls -la
+total 5
+drwxr-xr-x 1 HKEDU 197121  0 12월 31 17:13 ./
+drwxr-xr-x 1 HKEDU 197121  0 12월 31 17:13 ../
+drwxr-xr-x 1 HKEDU 197121  0 12월 31 17:13 .git/
+-rw-r--r-- 1 HKEDU 197121 21 12월 31 17:13 README.md
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial/PCWK_GIT (main)
+$
+$ cd PCWK_GIT/
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial/PCWK_GIT (main)
+$ ls -la
+total 5
+drwxr-xr-x 1 HKEDU 197121  0 12월 31 17:13 ./
+drwxr-xr-x 1 HKEDU 197121  0 12월 31 17:13 ../
+drwxr-xr-x 1 HKEDU 197121  0 12월 31 17:13 .git/
+-rw-r--r-- 1 HKEDU 197121 21 12월 31 17:13 README.md
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/github_tutorial/PCWK_GIT (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+# 로컬 저장소와 원격 저장소 연결
+$ cd git_tutorial/
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/git_tutorial (master)
+$ ls
+Hello.java
+
+HKEDU@DESKTOP-501IEKB MINGW64 /d/RPA_20210928/git_tutorial (master)
+$ git remote add origin https://github.com/hykim-king/PCWK_GIT_HUB.git
+
+
+$ git remote -v
+origin  https://github.com/hykim-king/PCWK_GIT_HUB.git (fetch)
+origin  https://github.com/hykim-king/PCWK_GIT_HUB.git (push)
